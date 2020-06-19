@@ -1,0 +1,121 @@
+
+/* manca la parte finale e il nav
+tutte le finezze tipo gli hover sono da fare  */
+
+
+
+/* ricorda di togliere le altezze */
+
+/* manca il responsive */
+
+
+nav,
+footer section:first-child {
+    background-color: rgb(44,62,80);
+    /* cancella */
+    height: 100px;
+}
+
+
+
+/* header */
+header,
+main section:nth-child(2) {
+    background-color: rgb(26,188,156);
+    text-align: center;
+    color: white;
+    padding: 80px 0;
+}
+
+header img {
+    height: 255px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.stella{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+
+}
+
+.barra-bianca {
+    display: inline-block;
+    width: 10%;
+    height: 4px;
+    background-color: white;
+    border-radius: 5px;
+    transform:translateY(-450%);
+}
+
+header p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+/* main */
+main section:first-child,
+main section:last-child {
+    /* cancella */
+    height: 900px;
+}
+
+main section:first-child .container,
+main section:last-child .container {
+    color: rgb(44,62,80);
+    text-align: center;
+    padding: 80px 0;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.blu {
+    background-color: rgb(44,62,80);
+}
+
+
+.row div {
+    padding: 20px;
+}
+
+main img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+main p {
+    font-size: 17px;
+    text-align: left;
+}
+
+button {
+    font-size: 17px;
+    color: white;
+    background-color: rgb(26,188,156);
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+
+}
+/* footer */
+footer section:first-child {
+    /* cancella */
+    height: 400px;
+}
+footer section:last-child {
+    background-color: rgb(26,37,47);
+    /* cancella */
+    height: 100px;
+}
