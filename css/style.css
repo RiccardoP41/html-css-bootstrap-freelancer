@@ -116,6 +116,50 @@ footer section:first-child {
 }
 footer section:last-child {
     background-color: rgb(26,37,47);
+    padding: 20px 0;
     /* cancella */
     height: 100px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+.row {
+    padding: 80px 0;
+}
+
+footer .container .row div {
+    padding: 0 20px;
+}
+
+footer h3 {
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 22px;
+}
+
+footer button {
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 12px 15px;
+    background-color: rgb(44,62,80);
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+
+footer button i {
+    font-size: 20px;
+}
+
+footer .container .row div:last-child a {
+    color: rgb(26,188,156);
+}
+
+footer span {
+
 }
