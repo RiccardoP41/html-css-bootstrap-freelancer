@@ -1,10 +1,10 @@
 
-/* manca la parte finale e il nav
+/* manca il form
 tutte le finezze tipo gli hover sono da fare  */
 
 
 
-/* ricorda di togliere le altezze */
+
 
 /* manca il responsive */
 
@@ -12,10 +12,27 @@ tutte le finezze tipo gli hover sono da fare  */
 nav,
 footer section:first-child {
     background-color: rgb(44,62,80);
-    /* cancella */
-    height: 100px;
+    }
+
+
+nav a {
+    display: inline-block;
+    color: white;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
 }
 
+ul {
+    display: inline-block;
+    float: right;
+    padding: 20px 10px;
+}
+
+li {
+    display: inline-block;
+    padding-left: 30px;
+}
 
 
 /* header */
@@ -61,11 +78,6 @@ header p {
 
 }
 /* main */
-main section:first-child,
-main section:last-child {
-    /* cancella */
-    height: 900px;
-}
 
 main section:first-child .container,
 main section:last-child .container {
@@ -103,7 +115,7 @@ button {
     font-size: 17px;
     color: white;
     background-color: rgb(26,188,156);
-    padding: 20px;
+    padding: 20px 25px;
     border: 1px solid white;
     border-radius: 10px;
 
@@ -112,13 +124,11 @@ button {
 /* footer */
 footer section:first-child {
     /* cancella */
-    height: 400px;
+    /* height: 400px; */
 }
 footer section:last-child {
     background-color: rgb(26,37,47);
     padding: 20px 0;
-    /* cancella */
-    height: 100px;
 }
 
 footer {
@@ -134,7 +144,7 @@ footer .container .row div {
     padding: 0 20px;
 }
 
-footer h3 {
+h3 {
     font-weight: bold;
 }
 
@@ -159,7 +169,41 @@ footer button i {
 footer .container .row div:last-child a {
     color: rgb(26,188,156);
 }
+form {
+    object-position: center;
+}
 
-footer span {
+form .row {
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
 
+form .row .input{
+    padding: 20px 0;
+}
+.input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(233,236,239);
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    border: none;
+    font-size: 25px;
+
+}
+
+
+
+textarea {
+    width: 100%;
+    font-size: 25px;
+    border: none;
+}
+
+form button {
+    margin-top: 20px;
 }
