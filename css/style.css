@@ -96,6 +96,7 @@ main section:last-child .container {
     padding: 80px 0;
 }
 
+
 h2 {
     font-size: 45px;
     font-weight: bold;
@@ -106,7 +107,7 @@ h2 {
 }
 
 
-.row div {
+.row div:not(.immagine) {
     padding: 20px;
 }
 
@@ -114,6 +115,42 @@ main img {
     height: auto;
     width: 100%;
     border-radius: 10px;
+}
+
+
+.immagine {
+    position: relative;
+    background-color: rgb(26,188,156);
+    border-radius: 10px;
+
+}
+
+.immagine i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    display: none;
+}
+
+.immagine:hover img {
+    opacity: 0.2;
+}
+
+.immagine:hover i {
+    display: inline-block;
+    z-index: 1
+}
+
+/* main img:hover {
+    background-color: rgb(26,188,156);
+    z-index: 1;
+} */
+/* main section:first-child .container .row div:hover{
+    background-color: rgb(26,188,156);
+    z-index: 1; */
 }
 
 main p {
