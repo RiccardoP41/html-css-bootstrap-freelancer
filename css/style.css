@@ -50,8 +50,21 @@ nav ul a:hover {
     text-decoration: none;
 }
 
+nav .container button {
+    border: none;
+    padding: 10px;
+    float: right;
+    margin: 35px 0 40px;;
+    display: none;
+}
 
-/* header */
+nav .container button a {
+    margin: 0 auto;
+    font-size: 15px;
+
+}
+
+
 header,
 main section:nth-child(2) {
     background-color: rgb(26,188,156);
@@ -97,7 +110,6 @@ header p {
     font-weight: lighter;
 
 }
-/* main */
 
 main section:first-child .container,
 main section:last-child .container {
@@ -154,14 +166,6 @@ main img {
     z-index: 1
 }
 
-/* main img:hover {
-    background-color: rgb(26,188,156);
-    z-index: 1;
-} */
-/* main section:first-child .container .row div:hover{
-    background-color: rgb(26,188,156);
-    z-index: 1; */
-}
 
 main p {
     font-size: 17px;
@@ -182,10 +186,8 @@ button:hover {
     background-color: white;
 
 }
-/* footer */
 footer section:first-child {
-    /* cancella */
-    /* height: 400px; */
+
 }
 footer section:last-child {
     background-color: rgb(26,37,47);
@@ -235,6 +237,7 @@ footer button i {
 footer .container .row div:last-child a {
     color: rgb(26,188,156);
 }
+
 form {
     object-position: center;
 }
@@ -259,7 +262,7 @@ input {
     width: 100%;
     border: none;
     font-size: 25px;
-
+    outline: none;
 }
 
 
@@ -268,8 +271,20 @@ textarea {
     width: 100%;
     font-size: 25px;
     border: none;
+    outline: none;
 }
 
 form button {
     margin-top: 20px;
+}
+
+
+@media screen and (max-width: 991px) {
+    nav .container button {
+        display: block;
+    }
+
+    ul {
+        display: none;
+    }
 }
