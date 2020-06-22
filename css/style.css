@@ -1,12 +1,11 @@
 
-/* manca il form
-tutte le finezze tipo gli hover sono da fare  */
 
 
 
 
 
-/* manca il responsive */
+
+
 
 
 nav,
@@ -14,6 +13,13 @@ footer section:first-child {
     background-color: rgb(44,62,80);
     }
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
 
 nav a {
     display: inline-block;
@@ -52,6 +58,10 @@ main section:nth-child(2) {
     text-align: center;
     color: white;
     padding: 80px 0;
+}
+
+header {
+    margin-top: 115px;
 }
 
 header img {
